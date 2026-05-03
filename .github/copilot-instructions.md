@@ -1,3 +1,6 @@
+---
+applyTo: "**"
+---
 # Project general coding guidelines
 
 ## Code Style
