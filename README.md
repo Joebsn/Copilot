@@ -73,6 +73,32 @@ VS Code supports three types of tools: built-in tools, Model Context Protocol (M
 
 Call with # when writing a command to the agent.
 
+## Context engineering
+
+Provide AI agents with targeted project information to improve the quality and accuracy of generated code.
+
+By curating essential project context through custom instructions, implementation plans, and coding guidelines, you enable AI to make better decisions, improve accuracy, and maintain persistent knowledge across interactions.
+
+### Step 1: Curate project-wide context
+
+To ground the AI agent in the specifics of the project, collect key project information like product vision, architecture, and other relevant documentation and add it as chat context via custom instructions.
+
+By using custom instructions, you ensure that the agent consistently has access to this context and doesn't have to re-learn it for each chat interaction.
+
+Example: copilot-instructions.md
+
+### Step 2: Create implementation plan
+
+Once you have the project-specific context in place, you can use AI to prompt the creation of an implementation plan for a new feature or bug fix.
+
+With a custom agent for planning, you can create a dedicated persona with planning-specific guidelines and tools (for example, read-only access to the codebase).
+
+Example: plan-template.md to define the structure and sections of the implementation plan document and plan.agent.md to create the agent.
+
+### Step 3: Generate implementation code
+
+Use AI to implement the feature by generating code from the implementation plan.
+
 ## Context for AI using "#"
 
 In the chat use "#" to add files, folders ... as context, for example:
