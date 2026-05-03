@@ -53,11 +53,17 @@ For more complex multi-step workflows that involve scripts and external tools, p
 
 ## Skills
 
-Teach the agent new capabilities for a specific domain or task.
+Agent Skills are folders of instructions, scripts, and resources that GitHub Copilot can load when relevant to perform specialized tasks.
+
+It teaches the agent new capabilities for a specific domain or task.
+
+Stored in SKILL.md files.
+
+Skills appears in the chat when writing "/"
 
 ## Hooks
 
-Run custom commands at specific lifecycle points in the agent loop
+Run custom commands at specific lifecycle points in the agent sessions.
 
 ## Tools
 
