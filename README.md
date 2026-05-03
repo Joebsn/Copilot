@@ -35,6 +35,12 @@ To invoke a subagent inside a prompt file, ensure that the runSubagent or agent 
 
 Examples: TDD.agent.md, RecursiveProcessor.agent.md, FeatureBuilder.agent.md, BetterReviewer.agent.md calls SubAgents
 
+### HandOff
+
+Handoffs enable you to create guided sequential workflows that transition between agents with suggested next steps. 
+
+Example: handoff.agent.md.
+
 ## Prompt files
 
 Create prompt files for repeatable tasks you run often, like scaffolding a component or preparing a pull request.
