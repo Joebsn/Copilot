@@ -123,8 +123,18 @@ Chat participants are specialized assistants that enable you to ask domain-speci
 
 Imagine a chat participant as a domain expert to whom you hand off your chat request and it takes care of the rest.
 
+For example @vscode participant has knowledge about VS Code and its extension APIs.
+
 VS Code has built-in chat participants which are optimized to answer questions about their respective domains. For example:
 
-"@vscode how to enable word wrapping"
+"@vscode how to enable word wrapping".
 
 "@terminal what are the top 5 largest files in the current directory"
+
+Chat participants can be used with "/" commands:
+
+@workspace /explain the feature.
+
+A custom Chat participant can be created and a command for it can be specified.
+
+For example @tutor /exercise stacks (will teach about stack)
