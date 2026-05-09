@@ -11,6 +11,8 @@ Example Copilot-instructions.md.
 
 For targeted rules, create file-based *.instructions.md files for specific parts of your codebase, such as language conventions or framework patterns.
 
+applyTo: tests/** applies the instrcutions for tests directories only.
+
 ### Generate customizations with AI
 
 Type /create-prompt, /create-instruction, /create-skill, /create-agent, or /create-hook in chat to generate customization files with AI assistance.
